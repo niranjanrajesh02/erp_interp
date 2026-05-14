@@ -1,0 +1,59 @@
+CONTENTS
+
+--BASE REPOSITORY--
+01_image-level                              Metadata and measures for image level
+02_object-level                             Metadata and measures for object level
+03_category-level                           Metadata and measures for category level
+_concepts-metadata_things.tsv				All concepts and object features used in things in table format, including associated metadata by things and thingsplus
+_image-database_things.zip 			        Object images archives (password protected)
+_image-database_CC0.zip                     Images archives for CC0 images (not password protected)
+_password-images.txt                        Password for unzipping _image-database_things.zip
+copyright-infrigement-notification  		Means for owners of images to request take down
+LICENSE.txt							        License agreement of the database
+paper_things.pdf							THINGS paper
+paper_thingsplus.pdf						THINGSplus paper
+
+--01_image-level--
+
+image-level_description.txt                 Detailed description of folder content and all variables
+_images-metadata_things.tsv                 Metadata and image features: recognizability, nameability, memorability
+CorNet-similarity-matrices_things			Path containing similarity matrices:
+image_paths.csv/.mat                        Relative paths of images     
+
+--02_object-level--
+
+object-level_description.txt                Detailed description of folder content and all variables
+_concepts-metadata_things.tsv				All concepts and object features used in things in table format, including associated metadata by things and thingsplus
+_property-ratings.tsv                       results for the 1,854 object concepts (averaged over all images depicting the respective object)
+ids-words_single-tables                     Path containing separate tables for wordnet-id, words, and unique-id 
+indexes_single-tables                       Path containing separate tables for object naming and excluded words
+semantic-embedding_things                   Path containing semantic embeddings (as .mat and .tsv)
+                	
+--03_category-level--
+
+category-level_description                  Detailed description of folder content and all variables
+categories27_things.mat						27 most frequently named categories
+category27_bottom-up.tsv/.mat		        index matrix of category membership for each of the 1854 concepts, according to categorization of online sample
+category27_top-down.tsv/.mat			    index matrix of category membership for each of the 1854 concepts, according to WordNet categorization
+category27_manual.tsv/.mat			        index matrix of category membership for each of the 1854 concepts, manually determined by author
+categorization27.tsv					    Subject responses to naming high-level categories, with first column the word itself
+category53_long-format.tsv		            membership associations for the 53 higher-level categories (long format)
+category53_wide-format.tsv		            membership associations for the 53 higher-level categories (wide format) (1 = member, 0 = not a member)
+typicality53_mean-ratings.tsv	            mean typicality ranks per member of each higher-level category. Includes only data from the improved version 2 of the typicality task (control of familiarity); typicality: mean typicality rank of the concept for the respective higher-level category
+typicality53_trial-wise.tsv		            trial-wise results of the typicality task. Includes only data from the improved version 2 of the typicality task (control of familiarity); category: higher-level category
+typicality53_mean-ratings_deprecated.tsv	deprecated results: mean typicality ranks per member of each higher-level category. Includes data from the combined version 1 (flawed version) and 2 of the task; typicality: mean typicality rank of the concept for the respective higher-level category; NOTE: gorilla was mistakenly sampled as member of "food". The mean typicality score of gorilla for "food" was removed in this file 
+typicality53_trial-wise_deprecated.tsv		deprecated results: trial-wise results of the typicality task. Includes data from the combined version 1 (flawed version) and 2 of the task; category: higher-level category; NOTE: gorilla was mistakenly sampled as a member of the "food" category" and is still included in this file.
+
+
+
+
+
+
+
+    
+
+
+
+	
+	
+			 
