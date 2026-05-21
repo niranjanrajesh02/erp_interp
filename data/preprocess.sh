@@ -1,0 +1,12 @@
+uv run python data/preprocess.py \
+    --data-dir data/raw/ \
+    --output-dir data/processed/ \
+    --subset-trials all \
+    --hp-freq 0.1 \
+    --lp-freq 40 \
+    --target-sfreq 250 \
+    --epoch-tmin -0.2 \
+    --epoch-tmax 0.8 \
+    --artifact-threshold 200e-6 \
+    --ica-n-components 63 \
+    --ica-random-state 42 \

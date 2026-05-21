@@ -1,1 +1,5 @@
 *.npy
+/data/processed/*
+*/__pycache__/
+*.h5
+*.pyc
