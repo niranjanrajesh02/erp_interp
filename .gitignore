@@ -1,4 +1,5 @@
 *.npy
+*.npz
 /data/processed/*
 */__pycache__/
 *.h5
